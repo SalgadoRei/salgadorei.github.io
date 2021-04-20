@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:#6bb47b;
+    border-bottom:10px solid #000;
+    padding: 10px 20px
+}
+nav {
+ text-align: right;
+}
+img {
+    border: 5px solid rgb(7, 119, 7);
+    border-radius: 3px;
+}
+a {
+    display: inline-flex;
+    align-items: center;
+    color:#fff;
+    font-size:20px;
+    font-family:"Fira Code", Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+a::before{
+    content: "";
+    background-color: #285f23;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+}
+
+.borda:hover {
+    color:rgb(182, 182, 182);
+    transition-duration: 0.3s;
+}
+#button:hover {
+   background:url(https://media.discordapp.net/attachments/667037645523648572/830198195908378664/flash.gif)no-repeat;
+   background-color: #207e17;
+   transition-duration: 0.5s;
+}
+
+#button {
+    display: inline-block;
+    background-color:#24911a;
+    box-shadow: 5px 5px 0px #000;
+    padding: 18px 20px;
+    margin-right: 0px;
+}
