@@ -49,3 +49,23 @@ a::before{
   padding: 18px 20px;
   margin-right: 0px;
 }
+.caixa_SalgadoRei {
+  box-shadow: #000 10px 10px;
+  background-color: rgb(21, 133, 167);
+  width: 627px;
+  height: 184px;
+}
+.titulo {
+  color:rgb(224, 119, 21);
+  font-family: 'Press Start 2P';
+  text-align: center;
+  text-shadow: black 4px 5px;
+  font-size: 40px;
+}
+.desc {
+  color:#fff;
+  font-family: 'Press Start 2P';
+  text-align: center;
+  text-shadow: black 4px 3px; 
+  font-size: 30px;
+}
