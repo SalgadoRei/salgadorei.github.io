@@ -57,13 +57,6 @@ a::before{
   height: 184px;
 }
 
-.desc {
-  color:#fff;
-  font-family: 'Press Start 2P';
-  text-align: center;
-  text-shadow: black 4px 3px; 
-  font-size: 30px;
-}
 .botao {
   margin-top: 50px;
   margin-left: 70px;
